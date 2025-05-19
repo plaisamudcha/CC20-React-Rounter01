@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: caramellatte --default;
+}
+
+a.active {
+  transform: scale(1.2);
+  transition: 1s;
+}
