@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 shadow-sm gap-2.5">
+    <div className="navbar bg-base-100 shadow-sm gap-2.5 bg-info-content">
       <NavLink to="/" className="btn btn-ghost text-xl">
         News
       </NavLink>

@@ -45,10 +45,11 @@ export default function ProductList() {
     );
   }
   return (
-    <div className="card bg-base-100 w-100 shadow-sm mx-auto mt-19">
+    <div className="card bg-base-200 w-110 shadow-sm mx-auto mt-19 px-2">
       <figure>
         <img src={product.images} alt={product.title} />
       </figure>
+      <hr />
       <div className="card-body">
         <h2 className="card-title">{product.title}</h2>
         <p>{product.description}</p>
